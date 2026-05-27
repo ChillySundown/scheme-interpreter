@@ -1,0 +1,12 @@
+(cons 0 0)
+(cons 1 2)
+(cons (if #t 1 0) (if #f 1 0))
+(cons (if (< 3 4) 1 0) (if (and #t #t #f) 1 0))
+(cons)
+(cons 1)
+(cons 1 2 3)
+(define a (cons 1 (cons 2 3)))
+a
+(cons a a)
+(define cons +)
+(cons 1 2 3)

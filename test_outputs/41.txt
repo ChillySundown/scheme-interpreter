@@ -1,0 +1,13 @@
+[{'ok': True, 'output': '(cons 0 0)'},
+{'ok': True, 'output': '(cons 1 2)'},
+{'ok': True, 'output': '(cons 1 0)'},
+{'ok': True, 'output': '(cons 1 0)'},
+{'ok': False, 'type': 'SchemeEvaluationError'},
+{'ok': False, 'type': 'SchemeEvaluationError'},
+{'ok': False, 'type': 'SchemeEvaluationError'},
+{'ok': True, 'output': '(cons 1 (cons 2 3))'},
+{'ok': True, 'output': '(cons 1 (cons 2 3))'},
+{'ok': True, 'output': '(cons (cons 1 (cons 2 3)) (cons 1 (cons 2 3)))'},
+{'ok': True, 'output': 'SOMETHING'},
+{'ok': True, 'output': 6},
+]

@@ -1,0 +1,7 @@
+[
+  "(multi\nline\nstatement)",
+  "(weird          white\n                 space)",
+  "(w3!|]\\d5y8[]1$)",
+  "\n(define circle-area\n  (lambda (r)\n    (* 3.14 (* r r))\n  )\n)\n",
+  "(define (fib n)\n    (if (<= n 1)\n      n\n      (+ (fib (- n 1)) (fib (- n 2)))\n    )\n  )\n",
+]

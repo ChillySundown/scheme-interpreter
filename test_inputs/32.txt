@@ -1,0 +1,10 @@
+[
+  "spam ; (",
+  "(with comments) ; comment test",
+  "(multiline ; with comments\n statement) ; with comments",
+  "(w3!|]\\d5y8[]1$)",
+  "(nested (expressions (test) (is here) ((((now))))))",
+  "()",
+  "  (  foo; ignore this comment\n;\n( bar  3.14  )  ); and this one\n; (+ 1 2 3) ",
+  "((parse   these \n tokens) ;but ignore comments\n here );)",
+]

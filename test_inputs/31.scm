@@ -1,0 +1,6 @@
+(define (foo x) (if (>= x 0) x (- 0 x)))
+(foo -20)
+(foo 0)
+(foo 20)
+(define y -28)
+(foo (+ 7 (- y 30)))

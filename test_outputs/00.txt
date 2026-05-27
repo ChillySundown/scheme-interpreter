@@ -1,0 +1,18 @@
+[
+ {'ok': True, 'output': ['bare-name']},
+ {'ok': True, 'output': ['6.28']},
+ {'ok': True, 'output': ['+']},
+ {'ok': True, 'output': ['-867.5309']},
+ {'ok': True, 'output': ['(', 'spam', ')']},
+ {'ok': True, 'output': ['(', 'john', 'paul', 'george', 'ringo', ')']},
+ {'ok': True, 'output': ['(', 'adam', 'adam', 'chris', 'duane', ')', ')']},
+ {'ok': True, 'output': ['(', '(', 'missing-paren']},
+ {'ok': True, 'output': [')', '(', 'spam', ')', '(']},
+ {'ok': True, 'output': ['(', 'foo', '(', 'bar', '3.14', ')', ')']},
+ {'ok': True, 'output': ['(', 'define', '(', 'square', 'x', ')', '(', '*', 'x', 'x', ')', ')']},
+ {'ok': True, 'output': ['(', '+', '3', '2', ')']},
+ {'ok': True, 'output': ['(', 'define', '(', 'fourthpower', 'x', ')', '(', 'square', '(', 'square', 'x', ')', ')', ')']},
+ {'ok': True, 'output': ['(', 'fourthpower', '1.1', ')']},
+ {'ok': True, 'output': ['(', '+', '3', '(', '-', '7', '8', ')', ')']},
+ {'ok': True, 'output': ['(', '+', '3', '(', '-', '3', '1', '1', ')', '2', ')']},
+]

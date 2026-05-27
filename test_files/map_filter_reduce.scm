@@ -1,0 +1,28 @@
+(begin 
+    (define (map func link) 
+        (if (equal? link (list))
+            (list)
+            (if (equal? (cdr link) ()) 
+                (cons (func (car link)) ())
+                (cons (func (car link)) (map func (cdr link)))
+            )
+        )
+    )
+
+    (define (filter func link)
+        (if (equal? link (list))
+            (list)
+            (if (func (car link))
+                (cons (car link) (filter func (cdr link)))
+                (filter func (cdr link))        
+            )
+        )
+    )
+
+    (define (reduce func link val)
+        (if (equal? link (list))
+            val
+            (reduce func (cdr link) (func val (car link)))
+        )
+    )
+)

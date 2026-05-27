@@ -1,0 +1,15 @@
+[
+{'ok': True, 'output': -0.45},
+{'ok': True, 'output': 3.0},
+{'ok': True, 'output': -56},
+{'ok': True, 'output': 392},
+{'ok': True, 'output': -3.5},
+{'ok': True, 'output': 58.0},
+{'ok': True, 'output': 2.0},
+{'ok': True, 'output': -30},
+{'ok': True, 'output': 6},
+{'ok': True, 'output': 38},
+{'ok': True, 'output': 8},
+{'ok': True, 'output': 2},
+{'ok': True, 'output': 15},
+]
